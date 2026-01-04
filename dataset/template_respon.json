@@ -1,0 +1,46 @@
+{
+    "header_kasih_rekomendasi": [
+        "Kalau kamu nyari anime <b>{criteria}</b>, aku punya nih beberapa rekomendasi anime yang punya genre tersebut 😋",
+        "Baik!, ini aku punya rekomendasi anime yang punya genre <b>{criteria}</b> 😊:",
+        "Bagus!, kamu lagi pengen nonton anime <b>{criteria}</b>, aku punya beberapa rekomendasi yang punya genre tersebut 😊"
+    ],
+    
+    "soft_footer": [
+        "Itu dia rekomendasiku! Semoga kamu suka<br>Kalau ada yang kurang cocok atau udah pernah ditonton, bilang aja ya~ misal: 'nomor 2 jelek' atau 'nomor 1 udah pernah' 😊",
+        "Itu dia! Semoga cocok ya~<br>Kalau ada yang kurang sesuai atau udah ditonton, sebutin nomornya aja, contoh: 'nomor 1 jelek' atau 'udah nonton yang nomor 3' 😊"
+    ],
+    
+    "komplain_spesifik_header": [
+        "Oke, kalau <b>{anime_name}</b> kurang sesuai ya~ Aku coba cariin yang lain, nih coba ini:",
+        "Noted! Kalau <b>{anime_name}</b> bukan tipe kamu, aku cariin alternatif lain ya:",
+        "Oke siap! <b>{anime_name}</b> aku skip ya, ini aku kasih pilihan lain:"
+    ],
+    
+    "komplain_umum_header": [
+        "Oke, aku cariin yang lain ya!",
+        "Baik, aku kasih pilihan lain deh!",
+        "Oke siap, ini aku cariin alternatif lainnya:"
+    ],
+    
+    "udah_pernah_nonton": [
+        "Oke noted! Kasih tau nomornya ya, misal: 'nomor 1 udah pernah' atau 'udah nonton nomor 2 dan 3' 😊",
+        "Siap! Sebutin aja nomornya yang mana, contoh: 'yang nomor 1 udah pernah kutonton' 😊",
+        "Baik! Bilang nomornya aja ya, nanti aku kasih alternatif lain. Misal: 'nomor 2 udah pernah' 😊"
+    ],
+    
+    "belum_ada_rekomendasi_komplain": [
+        "Eh, aku belum kasih rekomendasi apa-apa nih 😄<br>Coba deh request dulu, misal: 'cariin anime romance' atau 'mau anime action'<br>Nanti kalau ada yang kurang cocok, kasih tau nomornya ya! 😊"
+    ],
+    
+    "belum_ada_rekomendasi_udah_nonton": [
+        "Eh, aku belum kasih rekomendasi apa-apa nih 😄<br>Coba deh request dulu, misal: 'cariin anime romance'<br>Nanti kalau ada yang udah pernah ditonton, kasih tau nomornya ya! 😊"
+    ],
+    
+    "stock_habis": [
+        "Hmm anime <b>{criteria}</b> yang cocok udah habis nih 😅<br>Mau coba genre lain atau kombinasi yang lebih spesifik?"
+    ],
+    
+    "gak_ada_hasil": [
+        "Maaf, aku tidak menemukan anime yang cocok. Coba genre lain aja yuk😄"
+    ]
+}

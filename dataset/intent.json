@@ -1,0 +1,464 @@
+[
+    {
+        "tag": "salam",
+        "patterns": [
+            "Hai",
+            "Halo",
+            "Hey",
+            "Hei",
+            "Selamat pagi",
+            "Selamat siang",
+            "Selamat sore",
+            "Selamat malam",
+            "Assalamualaikum",
+            "Samlekom",
+            "Permisi velyn"
+        ],
+        "responses": [
+            "Halo! 👋 Selamat datang~<br>dengan Velyn disini, siap bantu kamu cari anime 😊<br>Mau cari anime sekarang?"
+        ]
+    },
+    {
+        "tag": "perkenalan",
+        "patterns": [
+            "Siapa kamu?",
+            "Nama kamu siapa?",
+            "Kenalan dulu yuk",
+            "Boleh kenalan?",
+            "Kamu itu siapa sih?",
+            "Perkenalkan diri kamu",
+            "Kenalin diri dong",
+            "Aku mau tahu kamu itu siapa?",
+            "Jelasin kamu itu siapa?",
+            "Identitas kamu siapa?",
+            "Coba perkenalan diri dulu"
+        ],
+        "responses": [
+            "Kenalin, aku <b>Velyn</b>! 😊<br>Aku bisa bantu kamu cari anime berdasarkan genre yang kamu suka!<br>Belum tau cara pakainya? Coba tanya aku: <i>'Gimana caranya buat minta rekomendasi?'</i> 😉"
+        ]
+    },
+    {
+        "tag": "minta_rekomendasi",
+        "patterns": [
+            "Info rekomendasi anime dong",
+            "Ada rekomendasi anime?",
+            "Rekomendasi anime dong",
+            "Minta rekomendasi anime dong",
+            "Gw cari anime nih",
+            "Saranin anime dong",
+            "Request anime",
+            "Butuh rekomendasi anime nih",
+            "Aku mau rekomendasi anime dong",
+            "Boleh minta rekomendasi anime?",
+            "Cariin anime buat aku dong",
+            "Mau saran anime yang bagus",
+            "Lagi pengen nyari anime nih",
+            "Bantu carikan anime",
+            "Minta list anime terbaik",
+            "Rekomendasi anime yang cocok",
+            "Saranin aku anime seru",
+            "Butuh tontonan anime"
+        ],
+        "responses": [
+            "Okay 😄 Sekarang kamu bisa langsung sebutin genre atau tema anime yang kamu mau, Aku cari animenya dari situ, belum bisa yang seperti <i>'Mirip anime A'</i> atau <i>'yang endingnya sedih/senang'</i> gitu hehe~",
+            "Oke siap~ sekarang tinggal sebutin aja genre atau tema anime yang kamu mau ya 🤗 Aku cuma bisa nyari lewat genre dan tema, belum bisa yang seperti <i>'mirip anime ini'</i> atau <i>'yang sedih banget'</i> gitu~",
+            "Kalau mau cari anime sebutin dulu ya genre-nya ya 😊 karena aku belum bisa kasih rekomendasi anime berdasarkan makna cerita seperti sedih/senang, jenis karakter, atau jenis ending.<br>Yuk sebutin langsung genre-nya"
+        ]
+    },
+    {
+        "tag": "mau",
+        "patterns": [
+            "Iya mau",
+            "Aku mau",
+            "Ya jelas mau",
+            "Lanjutkan aja",
+            "Ayo gas",
+            "Boleh lanjut",
+            "Ayo lanjutin",
+            "Oke aku mau",
+            "Mau aja aku",
+            "Setuju",
+            "Siap lanjut"
+        ],
+        "responses": [
+            "Oke siap! 😄<br><br>Sekarang kamu bisa langsung bilang genre yang kamu mau.<br><b>Contohnya kayak gini:</b><br>'Rekomendasiin anime Action, Adventure, Fantasy dong'<br>Nanti aku kasih 5 anime terbaik buat kamu!<br><br>Yuk sebutin genre-nya~ 🤗"
+        ]
+    },
+    {
+        "tag": "gak_mau",
+        "patterns": [
+            "Gak mau",
+            "Nggak mau",
+            "Ngga mau",
+            "Aku gak mau",
+            "Gak mau sekarang",
+            "Gak tertarik",
+            "Nggak tertarik",
+            "Gak mau lanjut",
+            "Gak pengen",
+            "Nggak pengen",
+            "Gak minat",
+            "Males ah gak mau"
+        ],
+        "responses": [
+            "Oke, tidak apa-apa! 😊<br>Kalau nanti mau cari anime tinggal panggil aku lagi ya~ 👋"
+        ]
+    },
+    {
+        "tag": "terimakasih",
+        "patterns": [
+            "Terima kasih",
+            "Makasih",
+            "Thanks",
+            "Tengkyu",
+            "Trimakasih",
+            "Thx",
+            "Makasih banyak",
+            "Terima kasih banyak",
+            "Makasih bantuannya",
+            "Makasih banget",
+            "Terima kasih udah kasih rekomendasi",
+            "Makasih udah bantu",
+            "Makasih rekomendasinya"
+        ],
+        "responses": [
+            "Sama-sama!<br>Senang banget bisa bantu kamu 😊"
+        ]
+    },
+    {
+        "tag": "selamat_tinggal",
+        "patterns": [
+            "Bye",
+            "Dadah",
+            "Pamit dulu",
+            "Sampai jumpa",
+            "Aku pergi dulu",
+            "Cabut dulu",
+            "Sampai ketemu lagi",
+            "See you later",
+            "Bye bye",
+            "Pamit",
+            "Selamat tinggal",
+            "Sampai ketemu besok"
+        ],
+        "responses": [
+            "Sampai jumpa! 👋<br>Jangan lupa balik lagi ya buat cari anime 😊"
+        ]
+    },
+    {
+        "tag": "tanya_cara_pakai",
+        "patterns": [
+            "Cara pakai bot ini gimana?",
+            "Gimana cara pakainya?",
+            "Tutorial pakai bot ini?",
+            "Panduan cara pake bot?",
+            "Langkah make bot ini?",
+            "Cara minta rekomendasi anime gimana?",
+            "Cara request anime?",
+            "Tutor cara pakai dong",
+            "Gimana cara pakai fitur rekomendasi?",
+            "Jelasin cara pakai",
+            "Gimana caranya buat minta rekomendasi?",
+            "Step by step cara pakainya gimana?"
+        ],
+        "responses": [
+            "Gampang banget kok! 😊<br>Aku kasih tau ya<br><br>Bilang aja ke aku<br><b>Contoh:</b><br>• 'Cariin anime drama'<br>• 'Req anime romance comedy'<br>• 'Kasih rekomendasi anime fantasy adventure'<br><br>Aku akan kasih 5 rekomendasi anime terbaik sesuai genre yang kamu sebutin tadi<br><br>Mudah kan? Yuk sekarang coba sebutin genre yang kamu mau🎬"
+        ]
+    },
+    {
+        "tag": "nanyain_genre",
+        "patterns": [
+            "Apa itu genre?",
+            "Arti genre dalam anime?",
+            "Genre maksudnya apa sih?",
+            "Jelasin pengertian genre?",
+            "Tema itu ceritain tentang apa?",
+            "Maksud istilah genre anime itu apa?",
+            "Genre itu artinya gimana?",
+            "Jelasin genre itu alur ceritanya gimana?",
+            "Genre itu maksudnya apa?",
+            "Apa beda genre dan tema?",
+            "Jelaskan genre?",
+            "Tema itu apa?",
+            "Tema itu maksudnya yang gimana?",
+            "Genre itu ceritanya tentang apa?"
+        ],
+        "responses": [
+            "Oke, aku jelasin ya! 😊<br><br><b>Genre</b> itu seperti <b>kategori cerita</b> di anime.<br>Genre menentukan <b>tipe atau gaya cerita</b> yang akan kamu tonton sama seperti di film gitu<br><b>Tema</b> itu seperti <b>sub-kategori</b> atau topik lebih detail dari suatu anime<br><br>Kamu bisa tanya lebih detail loh!<br>Contoh: <i>'Genre Slice of Life itu apa?'</i><br>Nanti aku kasih penjelasan singkatnya 😄"
+        ]
+    },
+    {
+        "tag": "tanya_fitur",
+        "patterns": [
+            "Kamu bisa ngapain aja sih?",
+            "Fitur kamu apa aja?",
+            "Kamu bisa bantu apa?",
+            "Bisa ngapain aja di sini?",
+            "Apa yang bisa kamu lakuin?",
+            "Kamu ada fitur apa?",
+            "Aku bisa pake kamu buat apa?",
+            "Kamu bisa bantu hal apa aja?",
+            "Aku pengen tau kamu bisa apa?",
+            "Apa aja yang bisa aku lakuin disini?",
+            "Kamu mendukung fitur apa aja?",
+            "Apa aja kemampuan kamu?"
+        ],
+        "responses": [
+            "Aku chatbot khusus untuk <b>rekomendasi anime</b> 🎬<br><b>Yang bisa lakuin:</b><br><br>🎯 <b>Kasih Rekomendasi Anime berdasarkan genre</b><br>Contoh: <i>'Cariin anime Action Comedy'</i><br>📖 <b>Jelasin Arti Genre</b><br>Contoh: <i>'Genre slice of life itu apa?'</i><br>ℹ️ <b>Info Detail Anime</b><br>Kamu bisa lihat info lengkap setiap anime di hasil rekomendasi nanti<br><b>Untuk pilihan genre dan tema yang aku punya bisa lihat di tombol</b><b>'List Genre'</b> atau <b>'List Tema'</b> di pojok atas sebelah kanan untuk lihat semua pilihan!<br><br>Yuk mulai cari anime sekarang! 😊"
+        ]
+    },
+    {
+        "tag": "tanya_lagi_ngapain",
+        "patterns": [
+            "Kamu lagi ngapain sekarang?",
+            "Kamu lagi ngapain sih?",
+            "Lagi ngapain kamu?",
+            "Kamu lagi ngapain aja hari ini?",
+            "Kamu lagi ngapain dari tadi?",
+            "Kamu lagi ngerjain apa?",
+            "Lagi ngapain barusan?",
+            "Kamu lagi ngapain aku pengin tau?",
+            "Kamu lagi ngapain saat ini?",
+            "Kamu lagi ngapain kok kayaknya tenang banget?",
+            "Lagi apa sekarang?"
+        ],
+        "responses": [
+            "Aku lagi standby, siap bantu kamu cari anime! 😊<br>Gimana, mau cari anime sekarang?<br>Tinggal sebutin genre yang kamu suka aja!<br>Contoh: 'Aku mau anime action' 🎬"
+        ]
+    },
+    {
+        "tag": "tanya_tempat_nonton",
+        "patterns": [
+            "Nonton anime biasanya dimana?",
+            "Platform nonton anime yang resmi apa?",
+            "Website streaming anime yang legal apa?",
+            "Aplikasi buat nonton anime apa?",
+            "Platform legal buat nonton anime apa?",
+            "Situs resmi buat nonton anime yang mana?",
+            "Dimana bisa akses anime legal?",
+            "Tempat streaming anime yang aman apa?",
+            "Ada aplikasi legal buat anime?",
+            "Website anime legal apa?",
+            "Streaming anime legal dimana?",
+            "Platform nonton anime indo yang resmi?",
+            "Nonton anime sub indo legal dimana?"
+        ],
+        "responses": [
+            "Maaf ya, aku tidak bisa kasih info tentang tempat nonton anime 😅<br><b>Tapi aku saranin:</b><br>Cari di platform streaming yang <b>legal dan resmi</b> ya!<br><b>Kenapa harus legal?</b><br>✅ Aman dan bebas virus<br>✅ Kualitas gambar & suara bagus<br>✅ Support pembuat anime<br><b>Cara carinya:</b><br>Ketik di Google: <i>'legal anime streaming platform'</i><br>atau <i>'platform anime resmi Indonesia'</i><br>Semoga membantu! 😊"
+        ]
+    },
+    {
+        "tag": "tanya_genre_tema",
+        "patterns": [
+            "Daftar genre yang kamu punya?",
+            "List genre apa aja yang kamu punya?",
+            "Tema apa aja yang tersedia?",
+            "Sebutin genre tema yang kamu punya?",
+            "Genre yang ada di sini berapa?",
+            "Pilihan genre apa aja?",
+            "List lengkap tema dan genre?",
+            "Liat daftar genre lengkap dong",
+            "Apa aja pilihan genre temanya?",
+            "Bisa tunjukin list genre?",
+            "Tampilkan list tema yang tersedia?",
+            "Berapa genre yang kamu punya?",
+            "Ada berapa pilihan genre?",
+            "Opsi genre tersedia apa aja?"
+        ],
+        "responses": [
+            "Aku punya banyak banget daftar genre dan tema anime yang bisa kamu lihat! 😊 Biar lebih rapi dan mudah dibaca, daftarnya aku pisahkan ke dalam tombol khusus karena jumlahnya lumayan banyak. <b>Cara melihat daftar lengkapnya:</b><br>📋 Klik tombol <b>'List Genre'</b>. 📋 Klik tombol <b>'List Tema'</b>. Tombolnya ada di bagian atas chat ini ya. Setelah itu, tinggal sebutin genre atau tema yang kamu mau 🎬"
+        ]
+    },
+    {
+        "tag": "tanya_jumlah_rekomendasi",
+        "patterns": [
+            "Kenapa cuma lima?",
+            "Kenapa hasilnya lima aja?",
+            "Kok limitnya lima?",
+            "Bisa lebih dari lima?",
+            "Kenapa dibatasin lima?",
+            "Aku mau lebih dari lima dong",
+            "Kenapa jumlahnya segitu?",
+            "Bisa tambah lagi jumlahnya?",
+            "Kenapa kasih lebih banyak?",
+            "Ada cara buat munculin lebih banyak?",
+            "Bisa tampilkan lebih banyak?",
+            "Limit lima itu kenapa?",
+            "Aku pengen hasil lebih banyak",
+            "Jumlahnya bisa ditambah gak?",
+            "Bisa munculin lebih dari lima anime?"
+        ],
+        "responses": [
+            "Pertanyaan yang bagus! 😊<br><br>Aku kasih <b>5 rekomendasi</b> supaya pilihannya tetap ringkas dan mudah dilihat. Dari banyak anime yang tersedia, aku ambil beberapa yang sesuai dengan genre yang kamu pilih.<br><b>Catatan:</b><br>Untuk sekarang, aku belum bisa menampilkan pilihan tambahan dari genre yang sama, jadi belum bisa jawab seperti <i>'Ada lagi nggak?'</i> gitu ya 😅<br>Tapi kamu tetap bisa coba genre atau kombinasi lainnya kok"
+        ]
+    },
+    {
+        "tag": "udah_pernah_nonton",
+        "patterns": [
+            "Aku udah nonton semua rekomendasi itu",
+            "Semua anime yang kamu kasih udah aku tonton",
+            "Udah tamat semua yang barusan kamu rekomendasiin",
+            "Ada rekomendasi lain nggak yang tadi udah kutonton semua?",
+            "Aku udah liat semua pilihan yang kamu kasih",
+            "Lainnya dong semuanya udah aku tonton itu",
+            "Ada list lain semua yang tadi udah pernah?",
+            "Semuanya udah aku tonton jadi kasih yang lain",
+            "Rekomendasi barusan udah semua aku tamatkan",
+            "Ada lagi lainnya?",
+            "Semua yang kamu sebutin tadi udah pernah",
+            "Udah semua aku tonton"
+        ],
+        "responses": [
+            "Baik, ternyata kamu sudah menonton semuanya ya! 😊<br>Saat ini aku belum bisa menampilkan rekomendasi tambahan dari genre yang sama 😅<br><b>Mau coba pilihan lain?</b><br>Kita bisa cari anime dari genre yang berbeda. Siapa tahu ada yang cocok buat kamu 😊<br>Kamu mau coba genre apa?"
+        ]
+    },
+    {
+        "tag": "komplain_hasil",
+        "patterns": [
+            "Jelek banget hasil rekomendasinya",
+            "Buruk banget rekomendasinya",
+            "Rekomendasinya kurang bagus",
+            "Kok jelek gini rekomendasinya?",
+            "Kok buruk banget pilihannya?",
+            "Hasil rekomendasinya gak bagus",
+            "Pilihan yang keluar jelek banget",
+            "Ini rekomendasinya jelek",
+            "Kurang memuaskan hasil rekomendasinya",
+            "Kok gak bagus gini rekomendasinya?",
+            "Kurang oke rekomendasinya",
+            "Hasil rekomendasinya parah",
+            "Rekomendasinya kurang banget",
+            "Nomor 1 jelek",
+            "Nomor satu jelek",
+            "Nomer 1 jelek",
+            "Yang pertama jelek",
+            "Yang pertama gak suka",
+            "Anime pertama jelek",
+            "Yang pertama kurang cocok",
+            "Nomor 2 jelek",
+            "Yang kedua jelek",
+            "Nomor 3 jelek",
+            "Yang ketiga jelek",
+            "Nomor 4 jelek",
+            "Yang keempat jelek",
+            "Nomor 5 jelek",
+            "Yang kelima jelek",
+            "Gak suka yang pertama",
+            "Kurang suka nomor 1",
+            "Nomor 1 gak cocok",
+            "Yang pertama gak cocok"
+        ],
+        "responses": [
+            "Maaf kalau hasilnya kurang sesuai 🙏<br><br><b>Aku punya tips:</b><br>1️⃣ Coba sebutin genre lebih spesifik<br>2️⃣ Kombinasi 2-3 genre sekaligus<br><br><br><b>Contoh lebih spesifik:</b><br>Daripada cuma 'Action' coba 'Action, Fantasy, Adventure'<br><br>Yuk coba lagi dengan genre yang lebih detail! 😊"
+        ]
+    },
+    {
+        "tag": "pertanyaan_dasar_anime",
+        "patterns": [
+            "Anime itu apa?",
+            "Anime itu maksudnya apa?",
+            "Maksudnya anime apa?",
+            "Anime itu gimana sih?",
+            "Anime itu apa sih?",
+            "Apa yang dimaksud anime?",
+            "Sebenarnya anime itu apa?",
+            "Apa arti anime?",
+            "Jelasin anime itu apa?",
+            "Anime itu dari mana?",
+            "Anime itu apa sebenarnya?",
+            "Anime itu apa asalnya?",
+            "Apa definisi anime?",
+            "Anime itu kayak apa?",
+            "Aku pengen tau anime itu apa?"
+        ],
+        "responses": [
+            "Anime itu animasi yang berasal dari Jepang! 😊<br><br><b>Penjelasan singkatnya:</b><br>• Punya gaya gambar yang khas, seperti mata yang besar dan ekspresi yang kuat<br>• Biasanya tampil dalam bentuk episode sekitar 24 menit atau film<br>• Genre-nya banyak banget, mulai dari action, romance, comedy, fantasy, drama, horror, sampai slice of life<br>• Bisa ditonton berbagai usia, bukan cuma anak-anak<br><br><b>Bedanya dengan kartun biasa:</b><br>Anime biasanya punya pilihan cerita dan tema yang lebih beragam.<br><br>Mau coba nonton anime? Aku bisa bantu cariin, tapi sebutin genrenya ya~ 🎬"
+        ]
+    },
+    {
+        "tag": "pengguna_pemula",
+        "patterns": [
+            "Aku belum pernah nonton anime mulai dari mana?",
+            "Aku pemula soal anime dan belum tahu harus mulai apa?",
+            "Aku mau coba nonton anime pertama kali",
+            "Aku belum ngerti soal anime",
+            "Aku masih awam soal anime dan mau mulai",
+            "Aku baru mau nyoba nonton anime",
+            "Aku belum pernah ngikutin anime sebelumnya",
+            "Aku belum paham anime dan mau mulai pelan-pelan",
+            "Aku belum tahu anime apa yang cocok buat pertama kali?",
+            "Aku baru tertarik anime nih gimana?",
+            "Aku belum punya pengalaman nonton anime",
+            "Aku masih bingung karena belum pernah nonton anime",
+            "Aku butuh cara mulai nonton anime soalnya belum pernah",
+            "Aku belum familiar dengan anime tapi mau coba"
+        ],
+        "responses": [
+                "Selamat datang di dunia anime! 🎉<br><br><b>Buat kamu yang baru mulai, ada beberapa genre populer yang biasanya gampang dinikmati:</b><br>• <b>Romance—Comedy</b>: cerita ringan dengan sentuhan humor<br>• <b>Drama—Romance</b>: cerita yang lebih emosional dan menyentuh<br>• <b>Action—Fantasy</b>: penuh petualangan dan dunia fantasi<br>• <b>Isekai</b>: tokoh utama berpindah ke dunia lain<br>• <b>Slice of Life</b>: cerita santai tentang kehidupan sehari-hari<br><br>Genre-genre ini banyak disukai karena ceritanya mudah diikuti dan cocok untuk pemula.<br><br>Nah, kamu pengen mulai dari genre apa? 😊"
+        ]
+    },
+    {
+        "tag": "pengguna_bilang_terserah",
+        "patterns": [
+            "Terserah kamu aja",
+            "Terserah aja aku ikut",
+            "Serah kamu aja",
+            "Terserah deh",
+            "Bebas aja kamu pilih",
+            "Terserah kamu bebas",
+            "Terserah kamu aku mah ikut",
+            "Bebas kamu aja",
+            "Serah aja kamu yang tentuin",
+            "Bebas deh terserah kamu",
+            "Serah kamu aku ngikut",
+            "Serah kamu aku bingung"
+        ],
+        "responses": [
+            "Hmm aku butuh info sedikit biar bisa cari🤔<br><br>Kamu bisa pilih salah satu genre yang ingin dicoba, misalnya: Action, Romance, Comedy, Fantasy, Drama, Slice of Life, atau Isekai.<br><br>Sebutkan saja satu genre, nanti aku cariin deh"
+        ]
+    },
+    {
+        "tag": "minta_pilihin",
+        "patterns": [
+            "Aku bingung mau pilih genre apa?",
+            "Pilihin aku genre yang bagus",
+            "Genre apa yang cocok buat aku?",
+            "Tentukan genre buat aku",
+            "Aku mau dipilihin genre",
+            "Pilihin genre yang pas buat aku",
+            "Tema apa yang harus aku pilih?",
+            "Aku bingung mulai dari genre mana?",
+            "Pilihin genre random buat aku",
+            "Kira kira aku cocoknya genre apa?",
+            "Aku mau kamu pilih genre buat aku",
+            "Bantu aku nentuin genre",
+            "Aku gak tau genre mana buat mulai",
+            "Kasih aku pilihan genre"
+        ],
+        "responses": [
+            "Kalau kamu masih bingung mau pilih genre apa, aku kasih beberapa contoh pilihan yang bisa dicoba.<br><br><b>Contoh genre populer:</b><br>• Action, Fantasy<br>• Romance, Drama<br>• Comedy, Slice of Life<br>• Action, Adventure<br>• Fantasy, Adventure<br><br>Genre-genre ini sering dipakai karena mudah diikuti untuk pemula maupun yang baru mulai coba anime.<br><br>Kamu bisa pilih salah satu kombinasi di atas, atau kalau mau lihat semua pilihannya, klik tombol 'List Genre' di atas."
+        ]
+    },
+    {
+        "tag": "tanya_terbaik_dari_hasil",
+        "patterns": [
+            "Dari semua itu mana yang paling bagus?",
+            "Yang paling oke dari semua ini yang mana?",
+            "Mana yang cocok banget dari pilihan tadi?",
+            "Aku bingung dari semua ini pilih yang mana?",
+            "Tunjukin yang paling terbaik dari semua pilihan",
+            "Mana yang menurutmu terbaik dari semua itu?",
+            "Aku pengen yang paling bagus dari ini semua",
+            "Dari semua tadi mana yang paling cocok?",
+            "Aku mau yang paling bagus dari pilihan ini",
+            "Yang mana yang paling bagus dari pilihan tadi?",
+            "Tunjukin satu yang paling cocok dari semua",
+            "Dari semua ini aku mau yang paling oke",
+            "Mana yang terbaik dari daftar tadi?",
+            "Dari semua ini mana yang paling tepat?"
+        ],
+        "responses": [
+            "Untuk sekarang, aku belum bisa menentukan mana yang paling bagus di antara lima rekomendasi yang muncul😞<br> Semua judul itu dipilih berdasarkan genre yang kamu minta kok udah aku sesuaikan<br><br>Coba lihat detail tiap animenya, siapa tau kamu bisa tertarik saat baca sinopsisnya gitu🤗"
+        ]
+    }
+]

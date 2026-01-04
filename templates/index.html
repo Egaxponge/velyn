@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Chatbot Rekomendasi Anime</title>
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <img src="{{ url_for('static', filename='css/img/velyn_pfp.png') }}" alt="Velyn Avatar" class="header-avatar">
+      <h1>Velyn</h1>
+    </div>
+    <div class="header-right">
+      <button id="btn-genre" class="list-btn">List Genre</button>
+      <button id="btn-theme" class="list-btn">List Tema</button>
+    </div>
+  </header>
+
+  <!-- Modal Genre -->
+  <div id="genre-modal" class="list-modal">
+    <div class="list-content">
+      <span class="close">&times;</span>
+      <h2>Daftar Genre</h2>
+      <ul class="copyable-list">
+        <li><span class="list-text">Action</span><button class="copy-btn" onclick="copyText(this, 'Action')">📋</button></li>
+        <li><span class="list-text">Adventure</span><button class="copy-btn" onclick="copyText(this, 'Adventure')">📋</button></li>
+        <li><span class="list-text">Avant Garde</span><button class="copy-btn" onclick="copyText(this, 'Avant Garde')">📋</button></li>
+        <li><span class="list-text">Award Winning</span><button class="copy-btn" onclick="copyText(this, 'Award Winning')">📋</button></li>
+        <li><span class="list-text">Comedy</span><button class="copy-btn" onclick="copyText(this, 'Comedy')">📋</button></li>
+        <li><span class="list-text">Drama</span><button class="copy-btn" onclick="copyText(this, 'Drama')">📋</button></li>
+        <li><span class="list-text">Fantasy</span><button class="copy-btn" onclick="copyText(this, 'Fantasy')">📋</button></li>
+        <li><span class="list-text">Gourmet</span><button class="copy-btn" onclick="copyText(this, 'Gourmet')">📋</button></li>
+        <li><span class="list-text">Horror</span><button class="copy-btn" onclick="copyText(this, 'Horror')">📋</button></li>
+        <li><span class="list-text">Mystery</span><button class="copy-btn" onclick="copyText(this, 'Mystery')">📋</button></li>
+        <li><span class="list-text">Romance</span><button class="copy-btn" onclick="copyText(this, 'Romance')">📋</button></li>
+        <li><span class="list-text">Sci-Fi</span><button class="copy-btn" onclick="copyText(this, 'Sci-Fi')">📋</button></li>
+        <li><span class="list-text">Slice of Life</span><button class="copy-btn" onclick="copyText(this, 'Slice of Life')">📋</button></li>
+        <li><span class="list-text">Sports</span><button class="copy-btn" onclick="copyText(this, 'Sports')">📋</button></li>
+        <li><span class="list-text">Supernatural</span><button class="copy-btn" onclick="copyText(this, 'Supernatural')">📋</button></li>
+        <li><span class="list-text">Suspense</span><button class="copy-btn" onclick="copyText(this, 'Suspense')">📋</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Modal Tema -->
+  <div id="theme-modal" class="list-modal">
+    <div class="list-content">
+      <span class="close">&times;</span>
+      <h2>Daftar Tema</h2>
+      <ul class="copyable-list">
+        <li><span class="list-text">Adult Cast</span><button class="copy-btn" onclick="copyText(this, 'Adult Cast')">📋</button></li>
+        <li><span class="list-text">Anthropomorphic</span><button class="copy-btn" onclick="copyText(this, 'Anthropomorphic')">📋</button></li>
+        <li><span class="list-text">CGDCT</span><button class="copy-btn" onclick="copyText(this, 'CGDCT')">📋</button></li>
+        <li><span class="list-text">Childcare</span><button class="copy-btn" onclick="copyText(this, 'Childcare')">📋</button></li>
+        <li><span class="list-text">Combat Sports</span><button class="copy-btn" onclick="copyText(this, 'Combat Sports')">📋</button></li>
+        <li><span class="list-text">Crossdressing</span><button class="copy-btn" onclick="copyText(this, 'Crossdressing')">📋</button></li>
+        <li><span class="list-text">Delinquents</span><button class="copy-btn" onclick="copyText(this, 'Delinquents')">📋</button></li>
+        <li><span class="list-text">Detective</span><button class="copy-btn" onclick="copyText(this, 'Detective')">📋</button></li>
+        <li><span class="list-text">Educational</span><button class="copy-btn" onclick="copyText(this, 'Educational')">📋</button></li>
+        <li><span class="list-text">Gag Humor</span><button class="copy-btn" onclick="copyText(this, 'Gag Humor')">📋</button></li>
+        <li><span class="list-text">Gore</span><button class="copy-btn" onclick="copyText(this, 'Gore')">📋</button></li>
+        <li><span class="list-text">Harem</span><button class="copy-btn" onclick="copyText(this, 'Harem')">📋</button></li>
+        <li><span class="list-text">High Stakes Game</span><button class="copy-btn" onclick="copyText(this, 'High Stakes Game')">📋</button></li>
+        <li><span class="list-text">Historical</span><button class="copy-btn" onclick="copyText(this, 'Historical')">📋</button></li>
+        <li><span class="list-text">Idols (Female)</span><button class="copy-btn" onclick="copyText(this, 'Idols Female')">📋</button></li>
+        <li><span class="list-text">Idols (Male)</span><button class="copy-btn" onclick="copyText(this, 'Idols Male')">📋</button></li>
+        <li><span class="list-text">Isekai</span><button class="copy-btn" onclick="copyText(this, 'Isekai')">📋</button></li>
+        <li><span class="list-text">Iyashikei</span><button class="copy-btn" onclick="copyText(this, 'Iyashikei')">📋</button></li>
+        <li><span class="list-text">Love Polygon</span><button class="copy-btn" onclick="copyText(this, 'Love Polygon')">📋</button></li>
+        <li><span class="list-text">Love Status Quo</span><button class="copy-btn" onclick="copyText(this, 'Love Status Quo')">📋</button></li>
+        <li><span class="list-text">Magical Sex Shift</span><button class="copy-btn" onclick="copyText(this, 'Magical Sex Shift')">📋</button></li>
+        <li><span class="list-text">Mahou Shoujo</span><button class="copy-btn" onclick="copyText(this, 'Mahou Shoujo')">📋</button></li>
+        <li><span class="list-text">Martial Arts</span><button class="copy-btn" onclick="copyText(this, 'Martial Arts')">📋</button></li>
+        <li><span class="list-text">Mecha</span><button class="copy-btn" onclick="copyText(this, 'Mecha')">📋</button></li>
+        <li><span class="list-text">Medical</span><button class="copy-btn" onclick="copyText(this, 'Medical')">📋</button></li>
+        <li><span class="list-text">Military</span><button class="copy-btn" onclick="copyText(this, 'Military')">📋</button></li>
+        <li><span class="list-text">Music</span><button class="copy-btn" onclick="copyText(this, 'Music')">📋</button></li>
+        <li><span class="list-text">Mythology</span><button class="copy-btn" onclick="copyText(this, 'Mythology')">📋</button></li>
+        <li><span class="list-text">Organized Crime</span><button class="copy-btn" onclick="copyText(this, 'Organized Crime')">📋</button></li>
+        <li><span class="list-text">Otaku Culture</span><button class="copy-btn" onclick="copyText(this, 'Otaku Culture')">📋</button></li>
+        <li><span class="list-text">Parody</span><button class="copy-btn" onclick="copyText(this, 'Parody')">📋</button></li>
+        <li><span class="list-text">Performing Arts</span><button class="copy-btn" onclick="copyText(this, 'Performing Arts')">📋</button></li>
+        <li><span class="list-text">Pets</span><button class="copy-btn" onclick="copyText(this, 'Pets')">📋</button></li>
+        <li><span class="list-text">Psychological</span><button class="copy-btn" onclick="copyText(this, 'Psychological')">📋</button></li>
+        <li><span class="list-text">Racing</span><button class="copy-btn" onclick="copyText(this, 'Racing')">📋</button></li>
+        <li><span class="list-text">Reincarnation</span><button class="copy-btn" onclick="copyText(this, 'Reincarnation')">📋</button></li>
+        <li><span class="list-text">Reverse Harem</span><button class="copy-btn" onclick="copyText(this, 'Reverse Harem')">📋</button></li>
+        <li><span class="list-text">Samurai</span><button class="copy-btn" onclick="copyText(this, 'Samurai')">📋</button></li>
+        <li><span class="list-text">School</span><button class="copy-btn" onclick="copyText(this, 'School')">📋</button></li>
+        <li><span class="list-text">Showbiz</span><button class="copy-btn" onclick="copyText(this, 'Showbiz')">📋</button></li>
+        <li><span class="list-text">Space</span><button class="copy-btn" onclick="copyText(this, 'Space')">📋</button></li>
+        <li><span class="list-text">Strategy Game</span><button class="copy-btn" onclick="copyText(this, 'Strategy Game')">📋</button></li>
+        <li><span class="list-text">Super Power</span><button class="copy-btn" onclick="copyText(this, 'Super Power')">📋</button></li>
+        <li><span class="list-text">Survival</span><button class="copy-btn" onclick="copyText(this, 'Survival')">📋</button></li>
+        <li><span class="list-text">Team Sports</span><button class="copy-btn" onclick="copyText(this, 'Team Sports')">📋</button></li>
+        <li><span class="list-text">Time Travel</span><button class="copy-btn" onclick="copyText(this, 'Time Travel')">📋</button></li>
+        <li><span class="list-text">Urban Fantasy</span><button class="copy-btn" onclick="copyText(this, 'Urban Fantasy')">📋</button></li>
+        <li><span class="list-text">Vampire</span><button class="copy-btn" onclick="copyText(this, 'Vampire')">📋</button></li>
+        <li><span class="list-text">Video Game</span><button class="copy-btn" onclick="copyText(this, 'Video Game')">📋</button></li>
+        <li><span class="list-text">Villainess</span><button class="copy-btn" onclick="copyText(this, 'Villainess')">📋</button></li>
+        <li><span class="list-text">Visual Arts</span><button class="copy-btn" onclick="copyText(this, 'Visual Arts')">📋</button></li>
+        <li><span class="list-text">Workplace</span><button class="copy-btn" onclick="copyText(this, 'Workplace')">📋</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function copyText(btn, text) {
+      navigator.clipboard.writeText(text).then(() => {
+        const original = btn.textContent;
+        btn.textContent = '✓';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = original;
+          btn.classList.remove('copied');
+        }, 1500);
+      });
+    }
+  </script>
+
+  <!-- Modal Preview Avatar -->
+  <div id="avatar-modal" class="avatar-modal">
+    <span id="close-modal" class="close-btn">&times;</span>
+    <img id="modal-img" src="{{ url_for('static', filename='css/img/velyn_pfp.png') }}" alt="Velyn Full" />
+  </div>
+
+  <!-- Modal Anime Detail -->
+  <div id="anime-detail-modal" class="anime-detail-modal">
+    <div class="anime-detail-content">
+      <span class="anime-detail-close">&times;</span>
+      <div class="anime-detail-body">
+        <div class="anime-detail-header">
+          <img id="detail-image" src="" alt="Anime Cover" class="anime-detail-image" />
+          <div class="anime-detail-info">
+            <h2 id="detail-name" class="anime-detail-title"></h2>
+            <div class="anime-detail-meta">
+              <div class="meta-item">
+                <span class="meta-label">Judul Inggris:</span>
+                <span id="detail-english-name" class="meta-value"></span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Genre:</span>
+                <span id="detail-genres" class="meta-value"></span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Tema:</span>
+                <span id="detail-themes" class="meta-value"></span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Score:</span>
+                <span id="detail-score" class="meta-value"></span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Total Episode:</span>
+                <span id="detail-episodes" class="meta-value"></span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Durasi:</span>
+                <span id="detail-duration" class="meta-value"></span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Tahun Rilis:</span>
+                <span id="detail-premiered" class="meta-value"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="anime-detail-synopsis">
+          <h3>Sinopsis</h3>
+          <p id="detail-synopsis"></p>
+        </div>
+        <a id="detail-mal-link" href="#" target="_blank" class="mal-button">
+          Lihat di MyAnimeList
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat Area -->
+  <main class="chat-area">
+    <div id="messages" class="messages"></div>
+    <div id="chat-helper" class="chat-helper">
+      <h2>Halo~</h2>
+      <p>Hari ini mau cari anime genre apa?</p>
+    </div>
+  </main>
+
+  <!-- Suggested Prompts Bar -->
+  <div id="suggested-prompts-bar" class="suggested-prompts-bar">
+    <button class="prompt-chip" data-prompt="Rekomendasiin anime genre romance school">
+      Rekomendasiin anime genre romance school
+    </button>
+    <button class="prompt-chip" data-prompt="Cariin anime action fantasy">
+      Cariin anime action fantasy
+    </button>
+    <button class="prompt-chip" data-prompt="Ini cara pakainya gimana">
+      Ini cara pakainya gimana?
+    </button>
+  </div>
+
+  <!-- Input Bar -->
+  <div class="input-bar">
+    <input id="user-input" type="text" placeholder="Sapa velyn dengan 'Hai velyn'" autofocus />
+    <button id="send-btn">Kirim</button>
+    <button id="clear-btn">Clear</button>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+</html>

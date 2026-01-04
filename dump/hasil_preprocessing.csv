@@ -1,0 +1,274 @@
+﻿Tag,Sebelum Preprocessing,Sesudah Preprocessing
+salam,Hai,hai
+salam,Halo,hai
+salam,Hey,hai
+salam,Hei,hai
+salam,Selamat pagi,selamat pagi
+salam,Selamat siang,selamat siang
+salam,Selamat sore,selamat sore
+salam,Selamat malam,selamat malam
+salam,Assalamualaikum,assalamualaikum
+salam,Samlekom,assalamualaikum
+salam,Permisi velyn,permisi
+perkenalan,Siapa kamu?,siapa kamu
+perkenalan,Nama kamu siapa?,nama kamu siapa
+perkenalan,Kenalan dulu yuk,kenal dulu
+perkenalan,Boleh kenalan?,boleh kenal
+perkenalan,Kamu itu siapa sih?,kamu siapa
+perkenalan,Perkenalkan diri kamu,kenal diri kamu
+perkenalan,Kenalin diri dong,kenal diri
+perkenalan,Aku mau tahu kamu itu siapa?,saya mau tahu kamu siapa
+perkenalan,Jelasin kamu itu siapa?,jelas kamu siapa
+perkenalan,Identitas kamu siapa?,identitas kamu siapa
+perkenalan,Coba perkenalan diri dulu,coba kenal diri dulu
+minta_rekomendasi,Info rekomendasi anime dong,informasi rekomendasi anime
+minta_rekomendasi,Ada rekomendasi anime?,ada rekomendasi anime
+minta_rekomendasi,Rekomendasi anime dong,rekomendasi anime
+minta_rekomendasi,Minta rekomendasi anime dong,minta rekomendasi anime
+minta_rekomendasi,Gw cari anime nih,saya cari anime
+minta_rekomendasi,Saranin anime dong,saran anime
+minta_rekomendasi,Request anime,request anime
+minta_rekomendasi,Butuh rekomendasi anime nih,butuh rekomendasi anime
+minta_rekomendasi,Aku mau rekomendasi anime dong,saya mau rekomendasi anime
+minta_rekomendasi,Boleh minta rekomendasi anime?,boleh minta rekomendasi anime
+minta_rekomendasi,Cariin anime buat aku dong,cari anime untuk saya
+minta_rekomendasi,Mau saran anime yang bagus,mau saran anime bagus
+minta_rekomendasi,Lagi pengen nyari anime nih,lagi ingin cari anime
+minta_rekomendasi,Bantu carikan anime,bantu cari anime
+minta_rekomendasi,Minta list anime terbaik,minta daftar anime baik
+minta_rekomendasi,Rekomendasi anime yang cocok,rekomendasi anime sesuai
+minta_rekomendasi,Saranin aku anime seru,saran saya anime seru
+minta_rekomendasi,Butuh tontonan anime,butuh tonton anime
+mau,Iya mau,iya mau
+mau,Aku mau,saya mau
+mau,Ya jelas mau,iya jelas mau
+mau,Lanjutkan aja,lanjut
+mau,Ayo gas,gas
+mau,Boleh lanjut,boleh lanjut
+mau,Ayo lanjutin,lanjut
+mau,Oke aku mau,oke saya mau
+mau,Mau aja aku,mau saya
+mau,Setuju,tuju
+mau,Siap lanjut,siap lanjut
+gak_mau,Gak mau,tidak mau
+gak_mau,Nggak mau,tidak mau
+gak_mau,Ngga mau,tidak mau
+gak_mau,Aku gak mau,saya tidak mau
+gak_mau,Gak mau sekarang,tidak mau sekarang
+gak_mau,Gak tertarik,tidak tarik
+gak_mau,Nggak tertarik,tidak tarik
+gak_mau,Gak mau lanjut,tidak mau lanjut
+gak_mau,Gak pengen,tidak ingin
+gak_mau,Nggak pengen,tidak ingin
+gak_mau,Gak minat,tidak minat
+gak_mau,Males ah gak mau,malas ah tidak mau
+terimakasih,Terima kasih,terima kasih
+terimakasih,Makasih,terima kasih
+terimakasih,Thanks,terima kasih
+terimakasih,Tengkyu,terima kasih
+terimakasih,Trimakasih,terima kasih
+terimakasih,Thx,terima kasih
+terimakasih,Makasih banyak,terima kasih banyak
+terimakasih,Terima kasih banyak,terima kasih banyak
+terimakasih,Makasih bantuannya,terima kasih bantu
+terimakasih,Makasih banget,terima kasih sangat
+terimakasih,Terima kasih udah kasih rekomendasi,terima kasih kasih rekomendasi
+terimakasih,Makasih udah bantu,terima kasih bantu
+terimakasih,Makasih rekomendasinya,terima kasih rekomendasi
+selamat_tinggal,Bye,bye
+selamat_tinggal,Dadah,dadah
+selamat_tinggal,Pamit dulu,pamit dulu
+selamat_tinggal,Sampai jumpa,sampai jumpa
+selamat_tinggal,Aku pergi dulu,saya pergi dulu
+selamat_tinggal,Cabut dulu,cabut dulu
+selamat_tinggal,Sampai ketemu lagi,sampai ketemu lagi
+selamat_tinggal,See you later,see you later
+selamat_tinggal,Bye bye,bye bye
+selamat_tinggal,Pamit,pamit
+selamat_tinggal,Selamat tinggal,selamat tinggal
+selamat_tinggal,Sampai ketemu besok,sampai ketemu besok
+tanya_cara_pakai,Cara pakai bot ini gimana?,cara pakai bagaimana
+tanya_cara_pakai,Gimana cara pakainya?,bagaimana cara pakai
+tanya_cara_pakai,Tutorial pakai bot ini?,pandu pakai
+tanya_cara_pakai,Panduan cara pake bot?,pandu cara pake
+tanya_cara_pakai,Langkah make bot ini?,langkah make
+tanya_cara_pakai,Cara minta rekomendasi anime gimana?,cara minta rekomendasi anime bagaimana
+tanya_cara_pakai,Cara request anime?,cara request anime
+tanya_cara_pakai,Tutor cara pakai dong,pandu cara pakai
+tanya_cara_pakai,Gimana cara pakai fitur rekomendasi?,bagaimana cara pakai fitur rekomendasi
+tanya_cara_pakai,Jelasin cara pakai,jelas cara pakai
+tanya_cara_pakai,Gimana caranya buat minta rekomendasi?,bagaimana cara untuk minta rekomendasi
+tanya_cara_pakai,Step by step cara pakainya gimana?,step by step cara pakai bagaimana
+nanyain_genre,Apa itu genre?,apa genre
+nanyain_genre,Arti genre dalam anime?,definisi genre dalam anime
+nanyain_genre,Genre maksudnya apa sih?,genre maksud apa
+nanyain_genre,Jelasin pengertian genre?,jelas definisi genre
+nanyain_genre,Tema itu ceritain tentang apa?,tema ceritain tentang apa
+nanyain_genre,Maksud istilah genre anime itu apa?,maksud istilah genre anime apa
+nanyain_genre,Genre itu artinya gimana?,genre arti bagaimana
+nanyain_genre,Jelasin genre itu alur ceritanya gimana?,jelas genre alur cerita bagaimana
+nanyain_genre,Genre itu maksudnya apa?,genre maksud apa
+nanyain_genre,Apa beda genre dan tema?,apa beda genre tema
+nanyain_genre,Jelaskan genre?,jelas genre
+nanyain_genre,Tema itu apa?,tema apa
+nanyain_genre,Tema itu maksudnya yang gimana?,tema maksud bagaimana
+nanyain_genre,Genre itu ceritanya tentang apa?,genre cerita tentang apa
+tanya_fitur,Kamu bisa ngapain aja sih?,kamu bisa ngapain
+tanya_fitur,Fitur kamu apa aja?,fitur kamu apa
+tanya_fitur,Kamu bisa bantu apa?,kamu bisa bantu apa
+tanya_fitur,Bisa ngapain aja di sini?,bisa ngapain sini
+tanya_fitur,Apa yang bisa kamu lakuin?,apa bisa kamu lakuin
+tanya_fitur,Kamu ada fitur apa?,kamu ada fitur apa
+tanya_fitur,Aku bisa pake kamu buat apa?,saya bisa pake kamu untuk apa
+tanya_fitur,Kamu bisa bantu hal apa aja?,kamu bisa bantu hal apa
+tanya_fitur,Aku pengen tau kamu bisa apa?,saya ingin tahu kamu bisa apa
+tanya_fitur,Apa aja yang bisa aku lakuin disini?,apa bisa saya lakuin sini
+tanya_fitur,Kamu mendukung fitur apa aja?,kamu dukung fitur apa
+tanya_fitur,Apa aja kemampuan kamu?,apa mampu kamu
+tanya_lagi_ngapain,Kamu lagi ngapain sekarang?,kamu lagi ngapain sekarang
+tanya_lagi_ngapain,Kamu lagi ngapain sih?,kamu lagi ngapain
+tanya_lagi_ngapain,Lagi ngapain kamu?,lagi ngapain kamu
+tanya_lagi_ngapain,Kamu lagi ngapain aja hari ini?,kamu lagi ngapain hari
+tanya_lagi_ngapain,Kamu lagi ngapain dari tadi?,kamu lagi ngapain dari tadi
+tanya_lagi_ngapain,Kamu lagi ngerjain apa?,kamu lagi ngerjain apa
+tanya_lagi_ngapain,Lagi ngapain barusan?,lagi ngapain barusan
+tanya_lagi_ngapain,Kamu lagi ngapain aku pengin tau?,kamu lagi ngapain saya pengin tahu
+tanya_lagi_ngapain,Kamu lagi ngapain saat ini?,kamu lagi ngapain
+tanya_lagi_ngapain,Kamu lagi ngapain kok kayaknya tenang banget?,kamu lagi ngapain kayak tenang sangat
+tanya_lagi_ngapain,Lagi apa sekarang?,lagi apa sekarang
+tanya_tempat_nonton,Nonton anime biasanya dimana?,nonton anime biasa mana
+tanya_tempat_nonton,Platform nonton anime yang resmi apa?,platform nonton anime resmi apa
+tanya_tempat_nonton,Website streaming anime yang legal apa?,website streaming anime legal apa
+tanya_tempat_nonton,Aplikasi buat nonton anime apa?,aplikasi untuk nonton anime apa
+tanya_tempat_nonton,Platform legal buat nonton anime apa?,platform legal untuk nonton anime apa
+tanya_tempat_nonton,Situs resmi buat nonton anime yang mana?,situs resmi untuk nonton anime mana
+tanya_tempat_nonton,Dimana bisa akses anime legal?,mana bisa akses anime legal
+tanya_tempat_nonton,Tempat streaming anime yang aman apa?,tempat streaming anime aman apa
+tanya_tempat_nonton,Ada aplikasi legal buat anime?,ada aplikasi legal untuk anime
+tanya_tempat_nonton,Website anime legal apa?,website anime legal apa
+tanya_tempat_nonton,Streaming anime legal dimana?,streaming anime legal mana
+tanya_tempat_nonton,Platform nonton anime indo yang resmi?,platform nonton anime indo resmi
+tanya_tempat_nonton,Nonton anime sub indo legal dimana?,nonton anime sub indo legal mana
+tanya_genre_tema,Daftar genre yang kamu punya?,daftar genre kamu punya
+tanya_genre_tema,List genre apa aja yang kamu punya?,daftar genre apa kamu punya
+tanya_genre_tema,Tema apa aja yang tersedia?,tema apa sedia
+tanya_genre_tema,Sebutin genre tema yang kamu punya?,sebutin genre tema kamu punya
+tanya_genre_tema,Genre yang ada di sini berapa?,genre ada sini berapa
+tanya_genre_tema,Pilihan genre apa aja?,pilih genre apa
+tanya_genre_tema,List lengkap tema dan genre?,daftar lengkap tema genre
+tanya_genre_tema,Liat daftar genre lengkap dong,liat daftar genre lengkap
+tanya_genre_tema,Apa aja pilihan genre temanya?,apa pilih genre tema
+tanya_genre_tema,Bisa tunjukin list genre?,bisa tunjukin daftar genre
+tanya_genre_tema,Tampilkan list tema yang tersedia?,tampil daftar tema sedia
+tanya_genre_tema,Berapa genre yang kamu punya?,berapa genre kamu punya
+tanya_genre_tema,Ada berapa pilihan genre?,ada berapa pilih genre
+tanya_genre_tema,Opsi genre tersedia apa aja?,pilih genre sedia apa
+tanya_jumlah_rekomendasi,Kenapa cuma lima?,kenapa hanya lima
+tanya_jumlah_rekomendasi,Kenapa hasilnya lima aja?,kenapa hasil lima
+tanya_jumlah_rekomendasi,Kok limitnya lima?,limit lima
+tanya_jumlah_rekomendasi,Bisa lebih dari lima?,bisa lebih dari lima
+tanya_jumlah_rekomendasi,Kenapa dibatasin lima?,kenapa dibatasin lima
+tanya_jumlah_rekomendasi,Aku mau lebih dari lima dong,saya mau lebih dari lima
+tanya_jumlah_rekomendasi,Kenapa jumlahnya segitu?,kenapa jumlah segitu
+tanya_jumlah_rekomendasi,Bisa tambah lagi jumlahnya?,bisa tambah lagi jumlah
+tanya_jumlah_rekomendasi,Kenapa kasih lebih banyak?,kenapa kasih lebih banyak
+tanya_jumlah_rekomendasi,Ada cara buat munculin lebih banyak?,ada cara untuk munculin lebih banyak
+tanya_jumlah_rekomendasi,Bisa tampilkan lebih banyak?,bisa tampil lebih banyak
+tanya_jumlah_rekomendasi,Limit lima itu kenapa?,limit lima kenapa
+tanya_jumlah_rekomendasi,Aku pengen hasil lebih banyak,saya ingin hasil lebih banyak
+tanya_jumlah_rekomendasi,Jumlahnya bisa ditambah gak?,jumlah bisa tambah tidak
+tanya_jumlah_rekomendasi,Bisa munculin lebih dari lima anime?,bisa munculin lebih dari lima anime
+udah_pernah_nonton,Aku udah nonton semua rekomendasi itu,saya nonton semua rekomendasi
+udah_pernah_nonton,Semua anime yang kamu kasih udah aku tonton,semua anime kamu kasih saya tonton
+udah_pernah_nonton,Udah tamat semua yang barusan kamu rekomendasiin,tamat semua barusan kamu rekomendasi
+udah_pernah_nonton,Ada rekomendasi lain nggak yang tadi udah kutonton semua?,ada rekomendasi lain tidak tadi tonton semua
+udah_pernah_nonton,Aku udah liat semua pilihan yang kamu kasih,saya liat semua pilih kamu kasih
+udah_pernah_nonton,Lainnya dong semuanya udah aku tonton itu,lain semua saya tonton
+udah_pernah_nonton,Ada list lain semua yang tadi udah pernah?,ada daftar lain semua tadi pernah
+udah_pernah_nonton,Semuanya udah aku tonton jadi kasih yang lain,semua saya tonton jadi kasih lain
+udah_pernah_nonton,Rekomendasi barusan udah semua aku tamatkan,rekomendasi barusan semua saya tamat
+udah_pernah_nonton,Ada lagi lainnya?,ada lagi lain
+udah_pernah_nonton,Semua yang kamu sebutin tadi udah pernah,semua kamu sebutin tadi pernah
+udah_pernah_nonton,Udah semua aku tonton,semua saya tonton
+komplain_hasil,Jelek banget hasil rekomendasinya,jelek sangat hasil rekomendasi
+komplain_hasil,Buruk banget rekomendasinya,buruk sangat rekomendasi
+komplain_hasil,Rekomendasinya kurang bagus,rekomendasi kurang bagus
+komplain_hasil,Kok jelek gini rekomendasinya?,jelek gin rekomendasi
+komplain_hasil,Kok buruk banget pilihannya?,buruk sangat pilih
+komplain_hasil,Hasil rekomendasinya gak bagus,hasil rekomendasi tidak bagus
+komplain_hasil,Pilihan yang keluar jelek banget,pilih keluar jelek sangat
+komplain_hasil,Ini rekomendasinya jelek,rekomendasi jelek
+komplain_hasil,Kurang memuaskan hasil rekomendasinya,kurang muas hasil rekomendasi
+komplain_hasil,Kok gak bagus gini rekomendasinya?,tidak bagus gin rekomendasi
+komplain_hasil,Kurang oke rekomendasinya,kurang oke rekomendasi
+komplain_hasil,Hasil rekomendasinya parah,hasil rekomendasi parah
+komplain_hasil,Rekomendasinya kurang banget,rekomendasi kurang sangat
+pertanyaan_dasar_anime,Anime itu apa?,anime apa
+pertanyaan_dasar_anime,Anime itu maksudnya apa?,anime maksud apa
+pertanyaan_dasar_anime,Maksudnya anime apa?,maksud anime apa
+pertanyaan_dasar_anime,Anime itu gimana sih?,anime bagaimana
+pertanyaan_dasar_anime,Anime itu apa sih?,anime apa
+pertanyaan_dasar_anime,Apa yang dimaksud anime?,apa maksud anime
+pertanyaan_dasar_anime,Sebenarnya anime itu apa?,benar anime apa
+pertanyaan_dasar_anime,Apa arti anime?,apa definisi anime
+pertanyaan_dasar_anime,Jelasin anime itu apa?,jelas anime apa
+pertanyaan_dasar_anime,Anime itu dari mana?,anime dari mana
+pertanyaan_dasar_anime,Anime itu apa sebenarnya?,anime apa benar
+pertanyaan_dasar_anime,Anime itu apa asalnya?,anime apa asal
+pertanyaan_dasar_anime,Apa definisi anime?,apa definisi anime
+pertanyaan_dasar_anime,Anime itu kayak apa?,anime seperti apa
+pertanyaan_dasar_anime,Aku pengen tau anime itu apa?,saya ingin tahu anime apa
+pengguna_pemula,Aku belum pernah nonton anime mulai dari mana?,saya belum pernah nonton anime mulai dari mana
+pengguna_pemula,Aku pemula soal anime dan belum tahu harus mulai apa?,saya mula soal anime belum tahu harus mulai apa
+pengguna_pemula,Aku mau coba nonton anime pertama kali,saya mau coba nonton anime pertama kali
+pengguna_pemula,Aku belum ngerti soal anime,saya belum erti soal anime
+pengguna_pemula,Aku masih awam soal anime dan mau mulai,saya masih awam soal anime mau mulai
+pengguna_pemula,Aku baru mau nyoba nonton anime,saya baru mau nyoba nonton anime
+pengguna_pemula,Aku belum pernah ngikutin anime sebelumnya,saya belum pernah ngikutin anime belum
+pengguna_pemula,Aku belum paham anime dan mau mulai pelan-pelan,saya belum paham anime mau mulai pelan pelan
+pengguna_pemula,Aku belum tahu anime apa yang cocok buat pertama kali?,saya belum tahu anime apa sesuai untuk pertama kali
+pengguna_pemula,Aku baru tertarik anime nih gimana?,saya baru tarik anime bagaimana
+pengguna_pemula,Aku belum punya pengalaman nonton anime,saya belum punya alam nonton anime
+pengguna_pemula,Aku masih bingung karena belum pernah nonton anime,saya masih bingung belum pernah nonton anime
+pengguna_pemula,Aku butuh cara mulai nonton anime soalnya belum pernah,saya butuh cara mulai nonton anime soal belum pernah
+pengguna_pemula,Aku belum familiar dengan anime tapi mau coba,saya belum familiar anime tetapi mau coba
+pengguna_bilang_terserah,Terserah kamu aja,serah kamu
+pengguna_bilang_terserah,Terserah aja aku ikut,serah saya ikut
+pengguna_bilang_terserah,Serah kamu aja,serah kamu
+pengguna_bilang_terserah,Terserah deh,serah
+pengguna_bilang_terserah,Bebas aja kamu pilih,bebas kamu pilih
+pengguna_bilang_terserah,Terserah kamu bebas,serah kamu bebas
+pengguna_bilang_terserah,Terserah kamu aku mah ikut,serah kamu saya mah ikut
+pengguna_bilang_terserah,Bebas kamu aja,bebas kamu
+pengguna_bilang_terserah,Serah aja kamu yang tentuin,serah kamu tentuin
+pengguna_bilang_terserah,Bebas deh terserah kamu,bebas serah kamu
+pengguna_bilang_terserah,Serah kamu aku ngikut,serah kamu saya ngikut
+pengguna_bilang_terserah,Serah kamu aku bingung,serah kamu saya bingung
+minta_pilihin,Aku bingung mau pilih genre apa?,saya bingung mau pilih genre apa
+minta_pilihin,Pilihin aku genre yang bagus,pilihin saya genre bagus
+minta_pilihin,Genre apa yang cocok buat aku?,genre apa sesuai untuk saya
+minta_pilihin,Tentukan genre buat aku,tentu genre untuk saya
+minta_pilihin,Aku mau dipilihin genre,saya mau dipilihin genre
+minta_pilihin,Pilihin genre yang pas buat aku,pilihin genre sesuai untuk saya
+minta_pilihin,Tema apa yang harus aku pilih?,tema apa harus saya pilih
+minta_pilihin,Aku bingung mulai dari genre mana?,saya bingung mulai dari genre mana
+minta_pilihin,Pilihin genre random buat aku,pilihin genre acak untuk saya
+minta_pilihin,Kira kira aku cocoknya genre apa?,kira kira saya cocok genre apa
+minta_pilihin,Aku mau kamu pilih genre buat aku,saya mau kamu pilih genre untuk saya
+minta_pilihin,Bantu aku nentuin genre,bantu saya nentuin genre
+minta_pilihin,Aku gak tau genre mana buat mulai,saya tidak tahu genre mana untuk mulai
+minta_pilihin,Kasih aku pilihan genre,kasih saya pilih genre
+tanya_terbaik_dari_hasil,Dari semua itu mana yang paling bagus?,dari semua mana paling bagus
+tanya_terbaik_dari_hasil,Yang paling oke dari semua ini yang mana?,paling oke dari semua mana
+tanya_terbaik_dari_hasil,Mana yang cocok banget dari pilihan tadi?,mana sesuai sangat dari pilih tadi
+tanya_terbaik_dari_hasil,Aku bingung dari semua ini pilih yang mana?,saya bingung dari semua pilih mana
+tanya_terbaik_dari_hasil,Tunjukin yang paling terbaik dari semua pilihan,tunjukin paling baik dari semua pilih
+tanya_terbaik_dari_hasil,Mana yang menurutmu terbaik dari semua itu?,mana turut baik dari semua
+tanya_terbaik_dari_hasil,Aku pengen yang paling bagus dari ini semua,saya ingin paling bagus dari semua
+tanya_terbaik_dari_hasil,Dari semua tadi mana yang paling cocok?,dari semua tadi mana paling sesuai
+tanya_terbaik_dari_hasil,Aku mau yang paling bagus dari pilihan ini,saya mau paling bagus dari pilih
+tanya_terbaik_dari_hasil,Yang mana yang paling bagus dari pilihan tadi?,mana paling bagus dari pilih tadi
+tanya_terbaik_dari_hasil,Tunjukin satu yang paling cocok dari semua,tunjukin satu paling sesuai dari semua
+tanya_terbaik_dari_hasil,Dari semua ini aku mau yang paling oke,dari semua saya mau paling oke
+tanya_terbaik_dari_hasil,Mana yang terbaik dari daftar tadi?,mana baik dari daftar tadi
+tanya_terbaik_dari_hasil,Dari semua ini mana yang paling tepat?,dari semua mana paling tepat
